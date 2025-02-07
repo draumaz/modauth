@@ -27,10 +27,10 @@ esac
 
 cat << EOF
 name: "${name}"
-version: ${version}"
-versionCode: ${versionCode}"
-author: ${author}"
-description: $description}"
+version: "${version}"
+versionCode: "${versionCode}"
+author: "${author}"
+description: "${description}"
 
 script from service.sh:
 `cat service.sh`
