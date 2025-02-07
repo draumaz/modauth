@@ -92,6 +92,7 @@ cat > service_real.sh << EOF
 MODDIR=\${0%/*}
 MNAME=\$(basename \$MODDIR)
 
+sleep 20
 `cat service.sh`
 EOF
 
