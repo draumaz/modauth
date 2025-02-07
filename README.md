@@ -20,3 +20,5 @@ EOF
 ```
 > sh modauth.sh
 name: 
+```
+- A .zip file will be generated in the project root that you can directly install via Magisk!
