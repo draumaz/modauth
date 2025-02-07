@@ -39,7 +39,7 @@ if everything looks good, press enter.
 otherwise, force close this script and resupply variables.
 EOF
 
-case "${FORCE}" in 1) ;; *) read -r ;; esac
+case "${MODAUTH_FORCE}" in 1) ;; *) read -r ;; esac
 
 cat > module.prop << EOF
 name="${name}"
