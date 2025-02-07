@@ -38,7 +38,8 @@ script from service.sh:
 if everything looks good, press enter.
 otherwise, force close this script and resupply variables.
 EOF
-read -r
+
+case "${FORCE}" in 1) ;; *) read -r ;; esac
 
 cat > module.prop << EOF
 name="${name}"
